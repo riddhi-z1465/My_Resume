@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+.resume-container {
+  display: flex;
+  max-width: 1000px;
+  margin: 40px auto;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+  width: 35%;
+  background: #0a1a3a;
+  color: #fff;
+  padding: 20px;
+}
+
+.profile-pic img {
+  width: 200px;
+  margin-left: 60px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.left-section h1 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.left-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.left-section ul li {
+  margin-bottom: 5px;
+}
+
+.right-section {
+  width: 65%;
+  padding: 30px;
+}
+
+.right-section .section {
+  margin-bottom: 30px;
+}
+
+.right-section .section h2 {
+  font-size: 20px;
+  color: #0a1a3a;
+}
+
+.date {
+  float: right;
+  font-weight: normal;
+  color: #555;
+}
